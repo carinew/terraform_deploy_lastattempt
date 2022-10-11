@@ -19,7 +19,7 @@ jobs:
         shell: bash
         working-directory: .
     steps:
-      - name: Git checkout
+      - name: Git checkout #God help your daughter
         uses: actions/checkout@v3
 
       - name: Configure AWS credentials from AWS account
